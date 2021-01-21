@@ -1,0 +1,50 @@
+<%- include('partials/header') -%>
+
+    <!--Contact-->
+    <section class="contact">
+        <div class="container">
+            <h2 class="">Get In Tou<span class="lastname">ch</span></h2>
+            <p class="para">Available At Your Service Anytime!!</p>
+
+            <ul class="list-info">
+                <li><a href="https://twitter.com/eddy_rexy" ><i class="fa fa-twitter-square"></i></a></li>
+                <li><a href="https://linkedin.com/in/edidiong-daniel"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="https://github.com/eddyenin"><i class="fa fa-github-square"></i></a></i></li>
+            
+            </ul>
+            
+        </div>
+    </section>
+
+    <!-- Contact form -->
+    <section class="contact-form">
+        <div class="container grid">
+            <form action="/contact" method="POST">
+                <h4 class="contact-title">Message <span class="lastname">me</span></h4>
+                <div class="">
+                    <div class="">
+                        <input type="text" class="form-control" name="name" placeholder="Name" required>
+                    </div>  
+                    <div class="">
+                        <input type="email" class="form-control" name="email" placeholder="Email">
+                    </div>
+                    <div class="">
+                        <input type="text" class="form-control" name="subject" placeholder="Subject">
+                    </div>
+                    <div class="">
+                        <textarea name="message" class="form-control" id="" cols="30" rows="6" placeholder="Message"></textarea>
+                    </div>
+                    <div class="">
+                       <button class="btn btn-secondary" id="contact-submit" type="submit">Send message</button>
+                    </div>
+                </div>
+            </form>
+            
+            <div class="contact-info">
+               <img src="images/contact_us.jpg" alt="contact">
+            </div>
+           
+        </div>
+    </section>
+</body>
+</html>
